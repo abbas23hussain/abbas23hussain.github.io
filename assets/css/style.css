@@ -1,42 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans:wght@400;600&display=swap');
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.7;
   padding: 40px;
-  background: #f4f1ec url('https://www.transparenttextures.com/patterns/white-wall-3.png');
-  color: #2e2b26;
+  background: linear-gradient(135deg, #1c1c2b, #121219);
+  color: #e6e6ea;
   max-width: 900px;
   margin: auto;
 }
 
 h1, h2, h3 {
-  font-family: 'Crimson Text', serif;
-  color: #3a2f1d;
-  text-shadow: 0 1px 1px #ccc;
+  font-family: 'Playfair Display', serif;
+  color: #f3d7b6;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  text-shadow: 0 1px 2px #000;
 }
 
 a {
-  color: #6a4e3b;
+  color: #d19a66;
   text-decoration: underline;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #b87b4b;
+  color: #ffcb6b;
 }
 
 .container, .content {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.05);
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 0 10px #d2cfc7;
+  box-shadow: 0 0 20px #0a0a0a;
   margin-bottom: 40px;
 }
 
 code, pre {
-  background-color: #eee;
-  color: #5a3f2e;
+  background-color: #2a2a3b;
+  color: #d4d4d4;
   padding: 6px 10px;
   border-radius: 5px;
   display: inline-block;
@@ -44,25 +46,25 @@ code, pre {
 }
 
 button, .btn {
-  background-color: #6a4e3b;
-  color: white;
+  background: linear-gradient(to right, #3a2d5d, #4d3763);
+  color: #f9f9f9;
   border: none;
   padding: 10px 20px;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 6px;
   cursor: pointer;
-  box-shadow: 0 2px 5px #c2b9a7;
-  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px #000;
+  transition: background 0.3s ease;
 }
 
 button:hover, .btn:hover {
-  background-color: #8a654b;
+  background: linear-gradient(to right, #5a3f81, #6b4a95);
 }
 
 hr {
   border: 0;
   height: 1px;
-  background: #bba48a;
-  margin: 30px 0;
-  opacity: 0.4;
+  background: #444;
+  margin: 40px 0;
+  opacity: 0.5;
 }
