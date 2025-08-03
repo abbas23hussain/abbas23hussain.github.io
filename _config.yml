@@ -4,6 +4,6 @@ description: >-
   Portfolio of Muhammad Abbas Hussain, a game developer with experience in Unreal Engine, Unity, and VR/AR.
 baseurl: ""
 url: "https://abbas23hussain.github.io"
-theme: minima
+theme: Chirpy
 plugins:
   - jekyll-feed
