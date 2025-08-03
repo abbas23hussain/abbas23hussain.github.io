@@ -53,7 +53,7 @@ Migrated multiplayer Flash game to WebGL with compatibility fixes and performanc
 
 ### 🔫 Revenge
 Multiplayer Shooter | Unreal Engine 5  
-Built core gameplay systems in a fast-paced contract job using Perforce collaboration.  
+Built core gameplay systems in a fast-paced contract job using Perforce collaboration.
 🔗 [Epic Games Store](https://store.epicgames.com/en-US/p/r3v3nge1-0be179)
 
 ### 🔌 V2V Plugin – Unreal Engine 5
