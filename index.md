@@ -5,6 +5,13 @@ title: Portfolio
 
 <link rel="stylesheet" href="style.css">
 
+## My Info
+
+[Email](abbas23hussain@gmail.com)
+[Phone] (+92-320-4056841)
+[LinkedIn] (linkedin.com/in/abbas23hussain)
+
+
 ## 👋 About Me
 
 Creative and results-driven Game Developer with 5+ years of experience in full-cycle game development using Unreal Engine and Unity. Proven expertise in C++, C#, gameplay mechanics, multiplayer systems, and optimization for PC and mobile platforms.
