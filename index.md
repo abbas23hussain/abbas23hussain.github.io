@@ -8,8 +8,10 @@ title: Portfolio
 ## My Info
 
 [Email](abbas23hussain@gmail.com)
-[Phone] (+92-320-4056841)
-[LinkedIn] (linkedin.com/in/abbas23hussain)
+
+[Phone](+92-320-4056841)
+
+[LinkedIn](linkedin.com/in/abbas23hussain)
 
 
 ## 👋 About Me
