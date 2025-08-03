@@ -1,46 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap');
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #0f0f0f;
-  color: #00fff7;
-  padding: 2rem;
+  font-family: 'Orbitron', 'Share Tech Mono', monospace;
   line-height: 1.6;
+  padding: 40px;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #e0e0e0;
 }
 
 h1, h2, h3 {
-  color: #ff00ff;
-  border-bottom: 2px solid #ff00ff;
-  padding-bottom: 5px;
-  margin-bottom: 15px;
+  color: #00fff7;
+  text-shadow: 0 0 5px #00fff7;
 }
 
 a {
-  color: #00ffae;
+  color: #ff00cc;
   text-decoration: none;
-  border-bottom: 1px dashed #00ffae;
+  transition: all 0.3s ease;
 }
 
 a:hover {
-  color: #ffffff;
-  background-color: #ff00ff;
-  padding: 2px 5px;
-  border-radius: 3px;
+  color: #00ffff;
+  text-shadow: 0 0 8px #00ffff;
 }
 
-code {
-  background: #1a1a1a;
-  padding: 2px 4px;
-  border-radius: 3px;
-  color: #ff00ff;
+.container, .content {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000080;
 }
 
-section {
-  margin-bottom: 2rem;
+code, pre {
+  background-color: #1f1f2e;
+  color: #00ffcc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  font-family: 'Share Tech Mono', monospace;
+}
+
+button, .btn {
+  background-color: #ff00cc;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 8px #ff00cc;
+  transition: 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #00ffff;
+  color: black;
+  box-shadow: 0 0 12px #00ffff;
 }
 
 hr {
   border: 0;
   height: 1px;
-  background: #444;
-  margin: 2rem 0;
+  background: #00fff7;
+  margin: 30px 0;
+  opacity: 0.2;
 }
