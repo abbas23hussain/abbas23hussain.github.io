@@ -1,68 +1,68 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@300;600&display=swap');
 
 body {
-  font-family: 'Orbitron', 'Share Tech Mono', monospace;
-  line-height: 1.6;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.7;
   padding: 40px;
-  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
-  color: #e0e0e0;
+  background: #f4f1ec url('https://www.transparenttextures.com/patterns/white-wall-3.png');
+  color: #2e2b26;
+  max-width: 900px;
+  margin: auto;
 }
 
 h1, h2, h3 {
-  color: #00fff7;
-  text-shadow: 0 0 5px #00fff7;
+  font-family: 'Crimson Text', serif;
+  color: #3a2f1d;
+  text-shadow: 0 1px 1px #ccc;
 }
 
 a {
-  color: #ff00cc;
-  text-decoration: none;
-  transition: all 0.3s ease;
+  color: #6a4e3b;
+  text-decoration: underline;
+  transition: color 0.3s ease;
 }
 
 a:hover {
-  color: #00ffff;
-  text-shadow: 0 0 8px #00ffff;
+  color: #b87b4b;
 }
 
 .container, .content {
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 25px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #00000080;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #d2cfc7;
+  margin-bottom: 40px;
 }
 
 code, pre {
-  background-color: #1f1f2e;
-  color: #00ffcc;
-  padding: 5px 10px;
+  background-color: #eee;
+  color: #5a3f2e;
+  padding: 6px 10px;
   border-radius: 5px;
   display: inline-block;
-  font-family: 'Share Tech Mono', monospace;
+  font-family: monospace;
 }
 
 button, .btn {
-  background-color: #ff00cc;
-  color: black;
+  background-color: #6a4e3b;
+  color: white;
   border: none;
   padding: 10px 20px;
   font-weight: bold;
-  font-family: 'Orbitron', sans-serif;
   border-radius: 5px;
   cursor: pointer;
-  box-shadow: 0 0 8px #ff00cc;
-  transition: 0.3s ease;
+  box-shadow: 0 2px 5px #c2b9a7;
+  transition: background-color 0.3s ease;
 }
 
 button:hover, .btn:hover {
-  background-color: #00ffff;
-  color: black;
-  box-shadow: 0 0 12px #00ffff;
+  background-color: #8a654b;
 }
 
 hr {
   border: 0;
   height: 1px;
-  background: #00fff7;
+  background: #bba48a;
   margin: 30px 0;
-  opacity: 0.2;
+  opacity: 0.4;
 }
