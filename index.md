@@ -1,9 +1,9 @@
 ---
 layout: home
 title: Portfolio
+---
 
 <link rel="stylesheet" href="style.css">
----
 
 ## 👋 About Me
 
