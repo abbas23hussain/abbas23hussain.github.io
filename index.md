@@ -35,18 +35,21 @@ Virtual economy with avatar customization, smart contracts, shopping systems, an
 ### 🧠 Boddle Learning
 3D EdTech Game | Unity  
 Mini-arcade educational games deployed across schools, integrating QA systems and rewards.
+🔗 [Boddle Learning](http://boddlelearning.com/)
 
 ### 🚴‍♂️ MyWhoosh
 Cycling Companion App | Unreal Engine  
 Gameplay integration and system-level debugging for high-fidelity simulation.
+🔗 [MyWhoosh](https://www.mywhoosh.com/)
 
 ### 📱 Hyper-Casual Game Prototypes
 Mobile Games | Unity + Voodoo  
 Fast-paced game prototypes focusing on user retention and ad-based monetization.
 
-### 🌐 Asterix and Friends (Flash to WebGL)
+### 🌐 Asterix and Friends (Flash to Unity WebGL)
 Legacy Migration | Unity  
 Migrated multiplayer Flash game to WebGL with compatibility fixes and performance upgrades.
+🔗 [Asterix and Friends](https://www.asterix-friends.com/en/)
 
 ### 🔫 Revenge
 Multiplayer Shooter | Unreal Engine 5  
@@ -54,9 +57,8 @@ Built core gameplay systems in a fast-paced contract job using Perforce collabor
 🔗 [Epic Games Store](https://store.epicgames.com/en-US/p/r3v3nge1-0be179)
 
 ### 🔌 V2V Plugin – Unreal Engine 5
-Editor Plugin | C++  
-Tool for seamless version-to-version asset migration across UE5 versions.  
-🔗 [GitHub Repo](https://github.com/talal0047/V2V)
+Editor Plugin | C++ | BLueprints | Unreal Engine 5 
+A plugin for creating seemless mutliplayer games by using C++ code to trigger UPnP Port Forwarding to allow server-client connection.
 
 ### 👤 MetaHuman Cinematic Showcase
 High-Fidelity Cinematics | Unreal Engine 5  
