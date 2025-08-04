@@ -44,7 +44,7 @@ Industrial Training VR | Unity
 ### 🏙️ VR City – Blockchain Metaverse
 Metaverse Platform | Unity + Polygon  
 Virtual economy with avatar customization, smart contracts, shopping systems, and land trading.
-![VR City](/assets/Media/VRCity.jpg)
+![VR City](/assets/Media/VRCity.png)
 
 ### 🧠 Boddle Learning 🔗 [Boddle Learning](http://boddlelearning.com/)
 3D EdTech Game | Unity  
