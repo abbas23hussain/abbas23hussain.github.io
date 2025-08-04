@@ -38,6 +38,7 @@ Role-playing VR experience set in Ancient Rome using dialogue trees, real-time v
 ### 🧰 VR Training Simulator – Danieli Automation
 Industrial Training VR | Unity  
 1:1 scale VR sim training for server replacement tasks using VR motion controller interactions.
+![VR Training Simulator](/assets/Media/VrTrainingSimulator.gif)
 
 ### 🏙️ VR City – Blockchain Metaverse
 Metaverse Platform | Unity + Polygon  
@@ -46,6 +47,7 @@ Virtual economy with avatar customization, smart contracts, shopping systems, an
 ### 🧠 Boddle Learning 🔗 [Boddle Learning](http://boddlelearning.com/)
 3D EdTech Game | Unity  
 Mini-arcade educational games deployed across schools, integrating QA systems and rewards.
+![Boddle Learning](/assets/Media/Boddle.gif)
 
 ### 🚴‍♂️ MyWhoosh 🔗 [MyWhoosh](https://www.mywhoosh.com/)
 Cycling Companion App | Unreal Engine  
