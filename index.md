@@ -33,7 +33,7 @@ Creative and results-driven Game Developer with 5+ years of experience in full-c
 
 ### 🎮 The August Choice – Rome at Crossroads
 Historical VR Simulation | Unity  
-Role-playing VR experience set in Ancient Rome using dialogue trees, real-time voice acting, and historical reconstructions.
+RPG VR experience set in Ancient Rome using dialogue trees, real-time voice acting, and historical reconstructions.
 ![The August Choice](/assets/Media/TheAugustChoice.gif)
 
 ### 🧰 VR Training Simulator – Danieli Automation
