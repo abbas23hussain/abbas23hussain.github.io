@@ -13,7 +13,7 @@ title: Portfolio
 
 [LinkedIn](linkedin.com/in/abbas23hussain)
 
-[Resume](assets/Resume/Muhammad_Abbas_Hussain_GameDev_Portfolio_Resume)
+[Resume](assets/Resume/Muhammad_Abbas_Hussain_GameDev_Portfolio_Resume.pdf)
 
 
 ## 👋 About Me
