@@ -7,11 +7,11 @@ title: Portfolio
 
 ## My Info
 
-[Email](abbas23hussain@gmail.com)
+[Email](mailto:abbas23hussain@gmail.com)
 
-[Phone](+92-320-4056841)
+[Phone](ph:+92-320-4056841)
 
-[LinkedIn](linkedin.com/in/abbas23hussain)
+[LinkedIn](https://www.linkedin.com/in/abbas23hussain/)
 
 [Resume](assets/Resume/Muhammad_Abbas_Hussain_GameDev_Portfolio_Resume.pdf)
 
