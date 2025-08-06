@@ -9,7 +9,7 @@ title: Portfolio
 
 [Email](mailto:abbas23hussain@gmail.com)
 
-[Phone](ph:+92-320-4056841)
+[Phone](phone:+92-320-4056841)
 
 [LinkedIn](https://www.linkedin.com/in/abbas23hussain/)
 
