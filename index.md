@@ -13,6 +13,8 @@ title: Portfolio
 
 [LinkedIn](https://www.linkedin.com/in/abbas23hussain/)
 
+[GitHub](https://github.com/abbas23hussain)
+
 [Resume](assets/Resume/Muhammad_Abbas_Hussain_GameDev_Portfolio_Resume.pdf)
 
 
