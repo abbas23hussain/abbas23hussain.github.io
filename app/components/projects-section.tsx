@@ -1,10 +1,38 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { FadeIn, Stagger, StaggerItem } from '@/components/ui/animate'
 import { ExternalLink, Github, Play, Gamepad2, Filter } from 'lucide-react'
 import Image from 'next/image'
+
+function ProjectImage({ src, alt }: { src: string; alt: string }) {
+  const [hasError, setHasError] = useState(false)
+  const handleError = useCallback(() => setHasError(true), [])
+
+  if (hasError) {
+    return (
+      <div className="absolute inset-0 flex items-center justify-center">
+        <div className="text-center">
+          <Gamepad2 className="w-10 h-10 text-[#10B981]/30 mx-auto mb-2" />
+          <p className="text-xs text-[hsl(220,15%,40%)] font-mono">Screenshot Placeholder</p>
+          <p className="text-[10px] text-[hsl(220,15%,30%)] font-mono mt-1">{src}</p>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <Image
+      src={src}
+      alt={alt}
+      fill
+      className="object-cover"
+      onError={handleError}
+      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+    />
+  )
+}
 
 interface ProjectLink {
   store?: string
@@ -317,14 +345,7 @@ export default function ProjectsSection() {
               >
                 {/* Project Image */}
                 <div className="relative aspect-video bg-[hsl(222,30%,12%)] overflow-hidden">
-                  {/* PLACEHOLDER: Replace /projects/<name>.jpg with actual project screenshots */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <Gamepad2 className="w-10 h-10 text-[#10B981]/30 mx-auto mb-2" />
-                      <p className="text-xs text-[hsl(220,15%,40%)] font-mono">Screenshot Placeholder</p>
-                      <p className="text-[10px] text-[hsl(220,15%,30%)] font-mono mt-1">{project.placeholderImage}</p>
-                    </div>
-                  </div>
+                  <ProjectImage src={project.placeholderImage} alt={`${project.title} screenshot`} />
                   {/* Overlay on hover */}
                   <div className="absolute inset-0 bg-gradient-to-t from-[hsl(222,47%,6%)] via-transparent to-transparent opacity-60" />
                   {/* Engine badge */}
