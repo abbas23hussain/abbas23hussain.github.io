@@ -11,7 +11,7 @@ const skillCategories = [
   {
     icon: Cpu,
     title: 'Game Engines',
-    items: ['Unreal Engine 4', 'Unreal Engine 5', 'Unity 2019+', 'Unity 2020+', 'Unity 2021+'],
+    items: ['Unreal Engine 4', 'Unreal Engine 5', 'Unity 2019+', 'Unity 6+'],
   },
   {
     icon: Code2,
