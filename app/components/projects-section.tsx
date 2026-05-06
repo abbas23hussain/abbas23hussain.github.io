@@ -173,7 +173,7 @@ const projects: Project[] = [
     ],
     links: {},
     image: null,
-    placeholderImage: '/projects/metahuman-cinematic.jpg',
+    placeholderImage: '/projects/metahuman-cinematic.png',
   },
   {
     title: 'FitPicSimulator',
