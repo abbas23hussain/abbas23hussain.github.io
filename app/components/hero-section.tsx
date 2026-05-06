@@ -52,7 +52,7 @@ export default function HeroSection() {
           className="font-display text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight text-white mb-4"
         >
           Muhammad
-          <span className="text-gradient block sm:inline"> Abbas</span>
+          <span className="text-gradient block sm:inline"> Abbas </span>
           Hussain
         </motion.h1>
 
