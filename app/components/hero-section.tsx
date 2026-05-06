@@ -51,8 +51,9 @@ export default function HeroSection() {
           transition={{ duration: 0.7, delay: 0.1 }}
           className="font-display text-4xl sm:text-5xl md:text-7xl font-bold tracking-tight text-white mb-4"
         >
-          Muhammad Abbas
-          <span className="text-gradient block sm:inline"> Hussain</span>
+          Muhammad
+          <span className="text-gradient block sm:inline"> Abbas</span>
+          Hussain
         </motion.h1>
 
         {/* Title */}
