@@ -57,13 +57,13 @@ const projects: Project[] = [
     engine: 'Unreal Engine 5',
     category: 'Multiplayer FPS',
     technologies: ['Unreal Engine 5', 'C++', 'Blueprints', 'Perforce', 'Multiplayer'],
-    description: 'A polished first/third-person multiplayer shooter commercially released on the Epic Games Store.',
+    description: 'A polished first person multiplayer shooter soon to be released on Steam.',
     details: [
       'Collaborated as part of a 6-developer team using Perforce version control.',
       'Implemented core gameplay systems including player movement, weapon handling, and combat mechanics.',
-      'Contributed to bug fixing, performance optimization, and final polish for Epic Games Store release.'
+      'Contributed to bug fixing, performance optimization, and polish for steam page.'
     ],
-    links: { store: 'https://store.epicgames.com/p/revenge' },
+    links: { store: 'https://store.steampowered.com/app/2709500/REVENGE' },
     image: null,
     placeholderImage: '/projects/revenge.jpg',
   },
@@ -72,16 +72,16 @@ const projects: Project[] = [
     subtitle: 'UE5 Migration Tool',
     engine: 'Unreal Engine 5',
     category: 'Editor Plugin',
-    technologies: ['Unreal Engine 5', 'C++', 'Blueprint', 'Slate UI'],
-    description: 'A custom UE5 editor plugin enabling seamless version-to-version migration of content and Blueprint assets.',
+    technologies: ['Unreal Engine 5', 'C++', 'Blueprint', 'Networking'],
+    description: 'An Unreal Engine 5 plugin with out-of-the-box UPnP support, enabling seamless multiplayer connectivity without relying on third-party services like EoS or Steam.',
     details: [
-      'Architected plugin for seamless version-to-version migration between UE5 versions.',
-      'Built robust C++ tooling for asset scanning, dependency resolution, and automatic reference updates.',
-      'Published open source with comprehensive installation instructions via GitHub.'
+      'Network plugin for seamless multiplayer connectivity using UPnP.',
+      'Developed in C++ as a UE component so it can be used directly from blueprints.',
+      'Currently published as invite only with comprehensive installation instructions via GitHub.'
     ],
-    links: { github: 'https://github.com/abbas23hussain' },
+    links: {},
     image: null,
-    placeholderImage: '/projects/v2v-plugin.jpg',
+    placeholderImage: '/projects/v2v-plugin.png',
   },
   {
     title: 'The August Choice',
@@ -91,13 +91,13 @@ const projects: Project[] = [
     technologies: ['Unity', 'C#', 'VR SDK (Oculus)', 'Voice Acting', 'Historical Sim'],
     description: 'An immersive RPG VR experience set in Ancient Rome with dialogue trees and historical reconstructions.',
     details: [
-      'Players act as Roman senators deciding whether to support Augustus.',
+      'Players act as a Roman senator deciding whether to support Augustus.',
       'Implemented dialogue trees with real-time voice acting and narrative branching.',
       'Built historically accurate 3D reconstructions of Roman forums and temples.'
     ],
     links: {},
     image: null,
-    placeholderImage: '/projects/the-august-choice.jpg',
+    placeholderImage: '/projects/the-august-choice.png',
   },
   {
     title: 'VR Training Simulator',
@@ -113,7 +113,7 @@ const projects: Project[] = [
     ],
     links: {},
     image: null,
-    placeholderImage: '/projects/vr-training-simulator.jpg',
+    placeholderImage: '/projects/vr-training-simulator.png',
   },
   {
     title: 'VR City',
@@ -129,7 +129,7 @@ const projects: Project[] = [
     ],
     links: {},
     image: null,
-    placeholderImage: '/projects/vr-city.jpg',
+    placeholderImage: '/projects/vr-city.png',
   },
   {
     title: 'MetaHuman Cinematic',
@@ -161,7 +161,7 @@ const projects: Project[] = [
     ],
     links: {},
     image: null,
-    placeholderImage: '/projects/fitpic-simulator.jpg',
+    placeholderImage: '/projects/fitpic-simulator.png',
   },
   {
     title: 'Boddle Learning',
@@ -177,7 +177,7 @@ const projects: Project[] = [
     ],
     links: { website: 'http://boddlelearning.com/' },
     image: null,
-    placeholderImage: '/projects/boddle-learning.jpg',
+    placeholderImage: '/projects/boddle-learning.webp',
   },
   {
     title: 'MyWhoosh',
@@ -193,7 +193,7 @@ const projects: Project[] = [
     ],
     links: { website: 'https://www.mywhoosh.com/' },
     image: null,
-    placeholderImage: '/projects/mywhoosh.jpg',
+    placeholderImage: '/projects/mywhoosh.png',
   },
   {
     title: 'Asterix and Friends',
@@ -212,21 +212,37 @@ const projects: Project[] = [
     placeholderImage: '/projects/asterix-and-friends.jpg',
   },
   {
-    title: 'Hyper-Casual Games',
-    subtitle: 'Mobile Arcade Games',
+    title: 'Bullet Rush',
+    subtitle: 'Hypercasual Mobile',
     engine: 'Unity3D',
     category: 'Mobile',
     technologies: ['Unity3D', 'C#', 'Mobile Dev', 'Analytics', 'Ad Integration'],
-    description: 'Multiple hyper-casual mobile game titles published through Voodoo with minimalist design.',
+    description: 'Worked on hybridizing a hypercasual game by adding store and leveling up features.',
     details: [
-      'Developed and rapidly iterated on multiple hyper-casual game titles.',
-      'Focused on retention metrics, ad placement, and fast publishing pipeline.',
-      'Analyzed player behavior data to inform design improvements.'
+      'Iterated an already published game into having new features',
+      'Analyzed player behavior data to inform design improvements.',
+      'Focused on retention metrics, ad placement, and fast publishing pipeline.'
     ],
-    links: {},
+    links: {store: 'https://play.google.com/store/apps/details?id=com.ohmgames.crowdshooter&pcampaignid=web_share'},
     image: null,
-    placeholderImage: '/projects/hyper-casual.jpg',
+    placeholderImage: '/projects/bullet-rush.webp',
   },
+  {
+    title: 'Haemaccel Run',
+    subtitle: 'Hypercasual Mobile',
+    engine: 'Unity3D',
+    category: 'Mobile',
+    technologies: ['Unity3D', 'C#', 'Mobile Dev', 'Analytics', 'Ad Integration'],
+    description: 'An endless runner game where you collect Haemaccel medicine while doding incoming traffic and road barriers',
+    details: [
+      'Attached the game with an event based leaderboard system.',
+      'Optimised for low end mobile devices',
+      'Added ad based revival and rewards'
+    ],
+    links: {store: 'https://play.google.com/store/apps/details?id=com.ABHGames.Hemaxyl&pcampaignid=web_share'},
+    image: null,
+    placeholderImage: '/projects/haemaccel-run.webp',
+  }
 ]
 
 const allCategories = ['All', ...Array.from(new Set(projects.map((p) => {
