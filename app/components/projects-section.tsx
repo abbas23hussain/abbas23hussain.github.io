@@ -52,6 +52,8 @@ interface Project {
   links: ProjectLink
   image: string | null
   placeholderImage: string
+  /** Optional MP4 played inline in the card; placeholderImage is its poster. */
+  video?: string
 }
 
 /*
@@ -79,6 +81,58 @@ interface Project {
  */
 
 const projects: Project[] = [
+  {
+    title: 'AI Digital Human',
+    subtitle: 'Real-Time MetaHuman Assistant',
+    engine: 'Unreal Engine 5',
+    category: 'AI / Interactive',
+    technologies: ['Unreal Engine 5', 'C++', 'MetaHuman', 'Lip Sync', 'UMG', 'WebSockets', 'LLM Backend'],
+    description: 'A photoreal MetaHuman kiosk assistant that listens, speaks and answers in real time, connected to a language-model backend.',
+    details: [
+      'Built in C++ with a native UMG interface: voice capture, spoken replies with real-time lip sync, on-screen transcript and QR codes.',
+      'Streams audio and replies over authenticated WebSockets with automatic reconnects, so the LLM backend (ChatGPT, Gemini or custom) is swappable.',
+      'Everything is config-driven: multiple lights, camera framing and exposure, backgrounds, UI layout, fonts and languages including right-to-left.',
+      'A web control page edits lights and camera live while the app runs. The conversation in the demo video is scripted.'
+    ],
+    links: { website: 'https://differentslice.com/#digital-human' },
+    image: null,
+    placeholderImage: '/projects/ai-digital-human.jpg',
+    video: '/projects/videos/digital-human-demo.mp4',
+  },
+  {
+    title: 'Archviz Render Reel',
+    subtitle: 'Cinematic 3D Visualization',
+    engine: 'Unreal Engine 5',
+    category: 'Visualization',
+    technologies: ['Unreal Engine 5', 'Archviz', 'Lighting', 'Materials', 'Cinematics'],
+    description: 'Cinematic architectural and interior visualization rendered in Unreal Engine 5, mastered in 4K at 60 fps.',
+    details: [
+      'Five environments: a lakeside house under the northern lights, a warehouse art gallery, a sunset coffee shop, a diner and a desert pavilion.',
+      'Lighting set up per shot for time of day, from golden-hour sun to moonlit night interiors.',
+      'Close-up material passes on stone, plaster, brick and timber to show surface detail.'
+    ],
+    links: { website: 'https://differentslice.com/#visualization' },
+    image: null,
+    placeholderImage: '/projects/archviz-reel.jpg',
+    video: '/projects/videos/archviz-reel.mp4',
+  },
+  {
+    title: 'Interior Configurator',
+    subtitle: 'Interactive Real-Time Archviz',
+    engine: 'Unreal Engine 5',
+    category: 'Visualization / Interactive',
+    technologies: ['Unreal Engine 5', 'UMG', 'Archviz', 'Real-Time Lighting', 'Product Configurator'],
+    description: 'An interactive walkthrough of a modern house where the viewer restyles the room live: furniture variants, materials, colours and time of day.',
+    details: [
+      'Click any piece of furniture to open a product card with a description, close-up and variants.',
+      'Swap materials and colours per product, and change architectural wall finishes, with the selection named on screen.',
+      'Morning, afternoon and evening lighting presets. The video is a screen recording sped up 4x.'
+    ],
+    links: { website: 'https://differentslice.com/#visualization' },
+    image: null,
+    placeholderImage: '/projects/interior-configurator.jpg',
+    video: '/projects/videos/interior-configurator.mp4',
+  },
   {
     title: 'Revenge',
     subtitle: 'Multiplayer Shooter',
@@ -345,11 +399,27 @@ export default function ProjectsSection() {
               >
                 {/* Project Image */}
                 <div className="relative aspect-video bg-[hsl(222,30%,12%)] overflow-hidden">
-                  <ProjectImage src={project.placeholderImage} alt={`${project.title} screenshot`} />
-                  {/* Overlay on hover */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-[hsl(222,47%,6%)] via-transparent to-transparent opacity-60" />
+                  {project.video ? (
+                    // Clicks on the player must not toggle the card's details.
+                    <video
+                      src={project.video}
+                      poster={project.placeholderImage}
+                      controls
+                      playsInline
+                      preload="none"
+                      onClick={(e: React.MouseEvent) => e.stopPropagation()}
+                      className="absolute inset-0 w-full h-full object-cover bg-black"
+                      aria-label={`${project.title} video`}
+                    />
+                  ) : (
+                    <>
+                      <ProjectImage src={project.placeholderImage} alt={`${project.title} screenshot`} />
+                      {/* Overlay on hover */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-[hsl(222,47%,6%)] via-transparent to-transparent opacity-60" />
+                    </>
+                  )}
                   {/* Engine badge */}
-                  <div className="absolute top-3 left-3">
+                  <div className="absolute top-3 left-3 pointer-events-none">
                     <span className="px-2.5 py-1 text-[10px] font-bold uppercase rounded-md bg-[hsl(222,47%,6%)]/80 text-[#10B981] border border-[#10B981]/20 backdrop-blur-sm">
                       {project.engine}
                     </span>
