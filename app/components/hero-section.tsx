@@ -73,7 +73,7 @@ export default function HeroSection() {
           transition={{ duration: 0.6, delay: 0.35 }}
           className="text-base sm:text-lg text-[hsl(220,15%,55%)] max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          Crafting immersive gaming experiences with Unreal Engine &amp; Unity for 5+ years.
+          Crafting immersive gaming experiences with Unreal Engine &amp; Unity for 6+ years.
           Specializing in multiplayer systems, VR/AR, and AI-driven gameplay.
         </motion.p>
 

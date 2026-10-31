@@ -13,10 +13,10 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mon
 export const metadata = {
   metadataBase: new URL(process.env.NEXTAUTH_URL || 'http://localhost:3000'),
   title: 'Muhammad Abbas Hussain | Senior Game Developer',
-  description: 'Senior Game Developer with 5+ years experience in Unreal Engine & Unity. Specializing in multiplayer networking, VR/AR, AI systems, and cross-platform game development.',
+  description: 'Senior Game Developer with 6+ years experience in Unreal Engine & Unity. Specializing in multiplayer networking, VR/AR, AI systems, and cross-platform game development.',
   openGraph: {
     title: 'Muhammad Abbas Hussain | Senior Game Developer',
-    description: 'Senior Game Developer with 5+ years experience in Unreal Engine & Unity.',
+    description: 'Senior Game Developer with 6+ years experience in Unreal Engine & Unity.',
     images: ['/og-image.png'],
   },
   icons: {

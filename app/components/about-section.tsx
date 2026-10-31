@@ -5,10 +5,10 @@ import { FadeIn, SlideIn } from '@/components/ui/animate'
 import { Gamepad2, Monitor, Globe, Sparkles } from 'lucide-react'
 
 const highlights = [
-  { icon: Gamepad2, label: '5+ Years', description: 'Game Development Experience' },
+  { icon: Gamepad2, label: '6+ Years', description: 'Game Development Experience' },
   { icon: Monitor, label: 'UE4/UE5 & Unity', description: 'Dual Engine Expertise' },
   { icon: Globe, label: 'Multi-Platform', description: 'PC, Mobile, VR, Web' },
-  { icon: Sparkles, label: 'Shipped Titles', description: 'Epic Store, Steam, App Stores' },
+  { icon: Sparkles, label: 'Shipped Titles', description: 'Web, Mobile & PC' },
 ]
 
 export default function AboutSection() {
@@ -31,7 +31,7 @@ export default function AboutSection() {
           <SlideIn from="left" className="lg:col-span-3">
             <div className="space-y-5">
               <p className="text-[hsl(220,15%,65%)] leading-relaxed text-base">
-                Creative and results-driven Senior Game Developer with over 5 years of progressive
+                Creative and results-driven Senior Game Developer with over 6 years of progressive
                 experience in full-cycle game development, from concept and prototyping to optimization
                 and deployment.
               </p>
@@ -43,10 +43,10 @@ export default function AboutSection() {
                 and VR platforms.
               </p>
               <p className="text-[hsl(220,15%,65%)] leading-relaxed text-base">
-                Proven track record of delivering shipped titles including games available on the
-                Epic Games Store, Steam, and educational platforms deployed in U.S. schools.
-                Passionate about creating immersive player experiences with a strong foundation
-                in shader programming, animation systems, and enterprise-grade VR training applications.
+                Proven track record of shipping titles on web, mobile and PC, including an educational
+                game used in U.S. classrooms, with a multiplayer shooter on its way to Steam. Founder of
+                Different Slice, an indie game studio that also builds real-time AI MetaHuman assistants
+                for clients.
               </p>
             </div>
           </SlideIn>

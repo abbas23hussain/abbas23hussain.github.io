@@ -151,7 +151,7 @@ const projects: Project[] = [
   },
   {
     title: 'V2V Plugin',
-    subtitle: 'UE5 Migration Tool',
+    subtitle: 'UE5 Networking Plugin',
     engine: 'Unreal Engine 5',
     category: 'Editor Plugin',
     technologies: ['Unreal Engine 5', 'C++', 'Blueprint', 'Networking'],
