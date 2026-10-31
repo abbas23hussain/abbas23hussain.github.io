@@ -66,7 +66,7 @@ export default function Navbar() {
                 </button>
               ))}
               <a
-                href="https://abbas23hussain.github.io/assets/Resume/Muhammad_Abbas_Hussain_GameDev_Portfolio_Resume.pdf"
+                href="/assets/Resume/Muhammad_Abbas_Hussain_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="ml-2 px-4 py-2 text-sm font-semibold text-[hsl(222,47%,6%)] bg-[#10B981] rounded-lg hover:bg-[#059669] transition-colors"
@@ -109,7 +109,7 @@ export default function Navbar() {
                 </motion.button>
               ))}
               <a
-                href="https://abbas23hussain.github.io/assets/Resume/Muhammad_Abbas_Hussain_GameDev_Portfolio_Resume.pdf"
+                href="/assets/Resume/Muhammad_Abbas_Hussain_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 w-full text-center px-6 py-3 text-lg font-semibold text-[hsl(222,47%,6%)] bg-[#10B981] rounded-lg hover:bg-[#059669] transition-colors"

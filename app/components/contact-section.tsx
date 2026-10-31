@@ -88,7 +88,7 @@ export default function ContactSection() {
         <FadeIn delay={0.4}>
           <div className="mt-12 flex flex-col sm:flex-row items-start gap-4">
             <a
-              href="https://abbas23hussain.github.io/assets/Resume/Muhammad_Abbas_Hussain_GameDev_Portfolio_Resume.pdf"
+              href="/assets/Resume/Muhammad_Abbas_Hussain_Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-[hsl(222,47%,6%)] bg-[#10B981] rounded-lg hover:bg-[#059669] transition-all hover:shadow-[0_0_20px_hsl(160,84%,39%,0.3)] active:scale-[0.98]"
