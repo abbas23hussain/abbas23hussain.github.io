@@ -134,18 +134,18 @@ const projects: Project[] = [
     video: '/projects/videos/interior-configurator.mp4',
   },
   {
-    title: 'Revenge',
+    title: 'Astral Sever',
     subtitle: 'Multiplayer Shooter',
     engine: 'Unreal Engine 5',
     category: 'Multiplayer FPS',
     technologies: ['Unreal Engine 5', 'C++', 'Blueprints', 'Perforce', 'Multiplayer'],
-    description: 'A polished first person multiplayer shooter soon to be released on Steam.',
+    description: 'A polished first person multiplayer shooter (formerly Revenge) soon to be released on Steam.',
     details: [
       'Collaborated as part of a 6-developer team using Perforce version control.',
       'Implemented core gameplay systems including player movement, weapon handling, and combat mechanics.',
       'Contributed to bug fixing, performance optimization, and polish for steam page.'
     ],
-    links: { store: 'https://store.steampowered.com/app/2709500/REVENGE' },
+    links: { store: 'https://store.steampowered.com/app/2709500/' },
     image: null,
     placeholderImage: '/projects/revenge.jpg',
   },

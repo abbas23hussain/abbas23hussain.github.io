@@ -39,7 +39,7 @@ const experiences = [
     period: 'Jul 2024 – Sep 2024',
     technologies: ['Unreal Engine 5', 'C++', 'Blueprints', 'Perforce'],
     highlights: [
-      'Built core gameplay for Revenge, a UE5 first-person multiplayer shooter with a live Steam store page: player movement, weapon handling and combat.',
+      'Built core gameplay for Astral Sever (formerly Revenge), a UE5 first-person multiplayer shooter coming to Steam: player movement, weapon handling and combat.',
       'Implemented modular C++ and Blueprint systems for player abilities and dynamic level interactions.',
       "Worked in a 6-developer team on Perforce, keeping clean changelists and reviewing teammates' code.",
     ],
