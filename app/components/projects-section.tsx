@@ -82,6 +82,25 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: '911',
+    subtitle: 'Bodycam-Style FPS',
+    engine: 'Unreal Engine 5',
+    category: 'FPS',
+    technologies: ['Unreal Engine 5', 'C++', 'Gameplay Ability System', 'Behavior Trees', 'EQS'],
+    description: 'A realistic bodycam-style first-person shooter in active development, built by Different Slice for POV Games Inc.',
+    details: [
+      'Wrote a C++ camera modifier that recreates chest-mounted bodycam motion: a dip on every footstep, sway across each stride and a hard bank into fast turns, tuned against reference footage.',
+      'Added handheld camera shake that grows while moving and firing, plus a short punch when the player is hit.',
+      'Integrated hitscan weapons with a Gameplay Ability System based NPC framework in C++, routing engine damage into gameplay effects.',
+      "Made the player a valid target for the NPCs' behavior tree and EQS attack logic.",
+      'The video is a work-in-progress build.'
+    ],
+    links: { website: 'https://differentslice.com/#pov-911' },
+    image: null,
+    placeholderImage: '/projects/pov-911.jpg',
+    video: '/projects/videos/pov-911.mp4',
+  },
+  {
     title: 'AI Digital Human',
     subtitle: 'Real-Time MetaHuman Assistant',
     engine: 'Unreal Engine 5',
